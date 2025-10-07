@@ -3,9 +3,11 @@ import "./ProductDisplay.css"
 import star_icon from "../../assets/star_icon.png"
 import star_dull_icon from "../../assets/star_dull_icon.png";
 import { ShopContext } from '../../Context/ShopContext';
+import { ToastContext } from '../../Context/ToastContext';
 const ProductDisplay = (props) => {
   const { product } = props;
   const {addTocart} = useContext(ShopContext);
+  const { show } = useContext(ToastContext)
   return (
     <div className='productdisplay'>
       <div className="productdisplay-left">
@@ -49,7 +51,7 @@ ${product.old_price}
       <div>XXL</div>
     </div>
   </div>
-  <button onClick={()=>{addTocart(product.id)}}>ADD TO CART</button>
+  <button onClick={()=>{addTocart(product.id); show('Added to cart')}}>ADD TO CART</button>
   <div className="productdisplay-right-category">
     <span>Category:<span>Women ,T-Shirt , Crop Top</span></span>
   </div>

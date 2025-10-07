@@ -2,6 +2,7 @@ import React from 'react'
 import "./NewCollections.css"
 import new_collections from '../../assets/newcollections'
 import Item from '../Item/Item'
+
 const NewCollections = () => {
   return (
     <div className='newcollections'>

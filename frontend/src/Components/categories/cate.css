@@ -1,0 +1,22 @@
+.cat-item {
+    width: 300px;
+    text-align: center;
+}
+.cat-item a{
+    text-decoration: none;
+    color: black;
+}
+.cat-item img{
+       width: 98%;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    height: 218px;
+}
+.category{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px;
+}

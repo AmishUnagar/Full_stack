@@ -1,18 +1,13 @@
 import React from 'react'
 import "./Offers.css"
-import exclusive from "../../assets/exclu.webp"
+import exclusive from "../../assets/img/banner/ddhome.jpg"
 const Offers = () => {
   return (
     <div className='offers'>
-        <div className="offers-left">
-           <h1>Exclusive</h1>
-           <h1>Offers For You</h1>
-           <p>ONLY ON BEST SELLERS PRODUCTS</p>
-           <button>Check Now</button>
-        </div>
-        <div className="offers-right">
-<img src={exclusive} alt="" />
-        </div>
+       
+
+     <img src={exclusive} alt="" />
+
     </div>
   )
 }

@@ -1,20 +1,20 @@
-import p1_img from '../assets/1.avif'
-import p5_img from '../assets/2.webp'
-import p6_img from '../assets/3.jfif'
-import p7_img from '../assets/4.avif'
-import p8_img from '../assets/5.avif'
-import p9_img from '../assets/6.webp'
-import p10_img from '../assets/7.jpg'
-import p11_img from '../assets/8.avif'
+import m1 from '../assets/img/newcol/er.webp'
+import m2 from '../assets/img/newcol/r.webp'
+import m3 from '../assets/img/newcol/c.webp'
+import m4 from '../assets//img/newcol/b.webp'
+import m5 from '../assets/img/newcol/c2.webp'
+import m6 from '../assets/img/newcol/r2.webp'
+import m7 from '../assets/img/newcol/b2.webp'
+import m8 from '../assets/img/newcol/e2.webp'
 let new_collections = [
-     { id: 5, name: "T-Shirt", category: "men", image: p5_img, new_price: 45.0, old_price: 70.0 },
-        { id: 6, name: "Dress", category: "women", image: p6_img, new_price: 85.0, old_price: 130.0 },
-        { id: 7, name: "Hoodie", category: "men", image: p7_img, new_price: 95.0, old_price: 150.0 },
-        { id: 8, name: "Leggings", category: "women", image: p8_img, new_price: 55.0, old_price: 100.0 },
-        { id: 9, name: "Shirt", category: "men", image: p9_img, new_price: 70.0, old_price: 110.0 },
-        { id: 10, name: "Jumpsuit", category: "women", image: p10_img, new_price: 88.0, old_price: 135.0 },
-        { id: 11, name: "Sweater", category: "men", image: p11_img, new_price: 92.0, old_price: 145.0 },
-        { id: 12, name: "Gown", category: "women", image: p1_img, new_price: 99.0, old_price: 160.0 },
+        { id: 5, name: "Trefle Drop Earrings", category: "earring", image: m1, new_price: 450, old_price: 700 },
+        { id: 6, name: "Sculpted Grace Diamond Finger", category: "ring", image: m2, new_price: 850, old_price: 1300 },
+        { id: 7, name: "Layered Beaded ", category: "chain", image: m3, new_price: 950, old_price: 1500 },
+        { id: 8, name: "Radiant Charms Bracelet", category: "bracelets", image: m4, new_price: 55.0, old_price: 100.0 },
+        { id: 9, name: "Radiant Nest Diamond", category: "chain", image: m5, new_price: 700, old_price: 1100 },
+        { id: 10, name: "Unique 22 Karat Yellow Gold", category: "ring", image: m6, new_price: 880, old_price: 1350 },
+        { id: 11, name: "Dual Toned Gold Bracele", category: "bracelets", image: m7, new_price: 920, old_price: 1450 },
+        { id: 12, name: "Enticing Petite Drop Earrings", category: "earring", image: m8, new_price: 990, old_price: 1600 },
 ]
 
 export default new_collections;

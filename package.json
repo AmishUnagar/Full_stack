@@ -1,0 +1,22 @@
+{
+  "name": "e-commerce-reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifetimecoding/E-commerce-reactjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifetimecoding/E-commerce-reactjs/issues"
+  },
+  "homepage": "https://github.com/lifetimecoding/E-commerce-reactjs#readme"
+}

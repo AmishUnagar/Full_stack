@@ -3,7 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
+    background-color: rgb(247, 245, 245);
+    border-top: 1px solid #ebebeb;
 }
 .footer-logo{
     display: flex;
