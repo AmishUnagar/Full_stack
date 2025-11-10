@@ -10,7 +10,7 @@ const Item = (props) => {
   return (
     <div className='item'>
        <Link to={`/product/${props.id}`} onClick={(e) => e.stopPropagation()}>
-         <img onClick={window.scrollTo(0,0)} src={props.image} alt="" />
+         <img onClick={() => window.scrollTo(0,0)} src={props.image} alt="" />
        </Link>
         <p>{props.name}</p>
         <div className='item-prices'>
@@ -27,8 +27,6 @@ const Item = (props) => {
             console.log('Before preventDefault - event:', e);
             e.preventDefault();
             e.stopPropagation();
-            e.nativeEvent.stopImmediatePropagation();
-            e.stopImmediatePropagation();
             console.log('After preventDefault - calling toggleWishlist');
             toggleWishlist(props.id);
             console.log('After toggleWishlist call');
@@ -37,22 +35,18 @@ const Item = (props) => {
           onMouseDown={(e) => {
             e.preventDefault();
             e.stopPropagation();
-            e.stopImmediatePropagation();
           }}
           onMouseUp={(e) => {
             e.preventDefault();
             e.stopPropagation();
-            e.stopImmediatePropagation();
           }}
           onTouchStart={(e) => {
             e.preventDefault();
             e.stopPropagation();
-            e.stopImmediatePropagation();
           }}
           onTouchEnd={(e) => {
             e.preventDefault();
             e.stopPropagation();
-            e.stopImmediatePropagation();
           }}
           style={{ 
             marginTop: 8, 

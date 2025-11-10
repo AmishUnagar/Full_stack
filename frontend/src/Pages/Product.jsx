@@ -32,7 +32,7 @@ const Product = () => {
           category: product.category,
         })
       }catch(e){
-        if(mounted) setError('Unable to load product. Showing local data if available.')
+        if(mounted) setError('')
       }finally{
         if(mounted) setLoading(false)
       }

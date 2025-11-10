@@ -41,8 +41,8 @@ ${product.old_price}
   <div className="productdisplay-right-description">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, eaque. Amet reiciendis minus modi eum soluta hic autem, rem corrupti quibusdam? Quam omnis saepe et expedita ratione, quasi unde repudiandae.
   </div>
-  <div className='productdisplay-right-size'>
-    <h1>Select Size</h1>
+  <div className='productdisplay-right-size my-5'>
+    {/* <h1>Select Size</h1> */}
     <div className="productdisplay-right-sizes">
       <div>S</div>
       <div>M</div>
